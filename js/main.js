@@ -1,3 +1,7 @@
+$(document).on('input','#memorableinfo',function () { 
+	update();
+});
+
 function update() {
 	//Get memorable information
 	var memorableinfo = $("#memorableinfo").val();
