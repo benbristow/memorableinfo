@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Memorable Information Helper</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+      <!-- Begin page content -->
+      <div class="container">
+        <div class="page-header">
+          <h1>Memorable Information Helper</h1>
+        </div>
+        <p class="lead">For security purposes, banks often require you to remember a piece of 'memorable' information, and ask you to
+          recall different letters from numerical places, for example, the 1st letter. This 'app' does the thinking for you.</p>
+        <p><strong>No information is stored on our servers. Everything is clientside using Javascript.</strong></p>
+        <hr/>
+        <p>
+          <form type="form-inline" onsubmit="update()">
+            <strong>Your memorable information:</strong> &nbsp; <input type="text" id="memorableinfo"/> <button type="submit" class="btn btn-small btn-primary">Evaluate</button>
+          </form>
+        </p>
+        <span id="selection" style="display:none;">
+        <hr/>
+        <h3>
+        <p id="outcome">
+
+        </p>
+        </h3>
+        <hr/>
+        </span>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit">&copy; 2013 <a href="http://www.benbristow.co.uk/">Ben Bristow</a></p>
+      </div>
+    </div>
+
+  </body>
+</html>
