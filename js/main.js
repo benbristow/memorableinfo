@@ -20,5 +20,7 @@ function update() {
 	//Show outcome
 	$("#outcome").html(html);
 	$("#selection").fadeIn(500);
-
+	
+	//Scroll to bottom of page
+	window.scrollTo(0,document.body.scrollHeight);
 }
