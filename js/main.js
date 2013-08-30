@@ -22,6 +22,6 @@ function update() {
 	$("#selection").fadeIn(500);
 	
 	//Scroll to bottom of page
-	$("#container").scrollTop($("#footer").position().top);​
+	$('html, body').animate({scrollTop:$(document).height()}, 'slow');
 
 }
